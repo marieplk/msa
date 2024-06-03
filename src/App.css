@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.important {
+  padding-left: 5%;
+}
+.importantCard {
+  width: 70%;
+  padding: 2.5% 5%;
+  margin-left: auto;
+  background-color: var(--light-gray);
+}
+.importantCard h1,
+p {
+  margin-bottom: 1.5rem;
+}
+.dualContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5%;
+  gap: 8rem;
+}
+.dualContainerTop {
+  display: flex;
+  justify-content: space-between;
+}
+.dualContainerTop p {
+  text-align: end;
+  max-width: 60%;
+}
+.dualContainerBottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.serviceOffline {
+  padding: 0 5%;
+}
+.screen {
+  min-height: 75.1svh;
+}
+@media (max-width: 760px) {
+  .dualContainerBottom {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}

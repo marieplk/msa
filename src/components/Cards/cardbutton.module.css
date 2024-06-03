@@ -1,0 +1,79 @@
+.cardButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-blue);
+  border-radius: 2rem;
+  max-width: 42rem;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.cardText {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.cardButtonOffline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-blue);
+  border-radius: 2rem;
+  max-width: 60rem;
+  gap: 2rem;
+  padding: 3rem;
+  margin: 2.5% auto;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.cardForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+.cardForm form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+.cardForm h2 {
+  text-align: center;
+}
+.formRow {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.formRow textarea {
+  width: 54%;
+  resize: none;
+}
+.accent {
+  background-color: var(--orange);
+  color: var(--white);
+  border: 0;
+  font-size: 2rem;
+  padding: 0.5rem 4rem;
+  border-radius: 2rem;
+  font-family: Geometria-Medium;
+  cursor: pointer;
+}
+.politics {
+  text-decoration: underline;
+  color: inherit;
+  font-size: 1rem;
+}
+@media (max-width: 760px) {
+  .cardButton {
+    padding: 0 5%;
+  }
+}

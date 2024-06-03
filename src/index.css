@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@font-face {
+  font-family: "Geometria-Light";
+  src: url(./assets/font/Geometria-Light.ttf);
+}
+@font-face {
+  font-family: "Geometria-Medium";
+  src: url(./assets/font/Geometria-Medium.ttf);
+}
+@font-face {
+  font-family: "Geometria-ExtraBold";
+  src: url(./assets/font/Geometria-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Geometria-Italic";
+  src: url(./assets/font/Geometria-Italic.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+
+}
+*:focus {
+  outline: none;
+}
+:root {
+  --black: #000;
+  --white: #f9fafc;
+  --gray: #d9d9d9;
+  --orange: #ffb068;
+  --green: #152a2e;
+  --light-gray: #e7eff0;
+  --light-blue: #ddebee;
+  --light-red: #f4ecef;
+  --light-green: #dbefdd;
+  --light-orange: #f5efe6;
+}
+html {
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+  min-height: 100svh;
+  background-color: #e8f3f4;
+  color: var(--black);
+  min-width: 375px;
+}
+h1 {
+  font-size: 4rem;
+  font-family: Geometria-ExtraBold;
+  color: var(--green);
+}
+h2 {
+  font-size: 2rem;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+h3 {
+  font-size: 2rem;
+  font-family: Geometria-Italic;
+}
+span {
+  font-family: Geometria-Light;
+  font-size: 1.5rem;
+}
+p {
+  font-size: 2rem;
+  font-family: Geometria-Light;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5rem;
+}
+li {
+  list-style-type: none;
+}
+
+label {
+  font-size: 2rem;
+  font-family: Geometria-Light;
+}
+input,
+textarea {
+  font-size: 2rem;
+  font-family: Geometria-Light;
+  padding: 0.5rem 1rem;
+  background-color: #f1fcff;
+  border: 0;
+  border-radius: 2rem;
+}
+@media (max-width: 1024px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (max-width: 769px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (max-width: 425px) {
+  html {
+    font-size: 8px;
+  }
+}

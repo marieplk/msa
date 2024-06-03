@@ -1,0 +1,60 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+  margin: 10% 0;
+  overflow: hidden;
+}
+
+.reviewsTop {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+.reviewsCarusel {
+  width: 100%;
+  display: flex;
+  gap: 5%;
+  overflow: hidden;
+  margin-top: 2.5%;
+  padding-left: 30%;
+  z-index: 0;
+}
+
+.slidernav {
+  display: flex;
+  justify-content: center;
+  gap: 45%;
+  max-height: 5.25rem;
+}
+
+.card {
+  background-color: var(--white);
+  border-radius: 2rem;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  transition: transform 0.5s; /* Add smooth transition */
+  min-width: 30rem;
+}
+
+.cardReviewer {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+.cardReviewer img {
+  width: 15%;
+  height: auto;
+}
+@media (max-width: 425px) {
+  .reviewsCarusel {
+    width: 100%;
+    display: flex;
+    gap: 5%;
+    overflow: hidden;
+    margin-top: 2.5%;
+    padding-left: 15%;
+    z-index: 0;
+  }
+}

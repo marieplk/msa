@@ -1,0 +1,26 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5%;
+  gap: 5rem;
+}
+.blogText h3 {
+  border-left: 1px solid var(--green);
+  padding: 5%;
+  margin: 5rem 0;
+}
+.blogNav {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.blogFilter {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+@media (max-width: 640px) {
+  .blogFilter {
+    flex-direction: column;
+  }
+}

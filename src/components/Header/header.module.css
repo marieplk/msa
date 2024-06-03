@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  align-items: center;
+  font-family: Geometria-Light;
+  margin-bottom: 5%;
+  padding: 0 5%;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  gap: 5%;
+  margin-left: 32.5%;
+}
+.menu {
+  display: none;
+}
+.nav li {
+  position: relative;
+  text-wrap: nowrap;
+}
+
+.nav li a {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav li a:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #000;
+  transition: width 0.3s;
+}
+
+.nav li a:hover:after,
+.nav li a:focus:after {
+  width: 100%;
+}
+@media (max-width: 769px) {
+  .nav {
+    display: none;
+  }
+  .menu {
+    display: block;
+    margin-left: auto;
+    scale: 2.5;
+    margin-top: 1rem;
+  }
+}
