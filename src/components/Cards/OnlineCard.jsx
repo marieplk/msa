@@ -11,8 +11,8 @@ const OnlineCard = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_m64mydc", "template_i9g4irj", form.current, {
-        publicKey: "-AoxajydB39rDgEZA",
+      .sendForm("plaksina-doc", "template_axjunuu", form.current, {
+        publicKey: "ZCYl4juSvRtFiBlPE",
       })
       .then(() => {
         console.log("SUCCESS!");
