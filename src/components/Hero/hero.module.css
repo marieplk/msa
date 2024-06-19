@@ -19,8 +19,13 @@
   padding: 0 5%;
   margin: 10% 0;
 }
+
 .leftColumnText {
   margin-bottom: 2%;
+}
+
+.leftColumn button{
+  margin-top: 4%;
 }
 .leftColumnText2 {
   margin-bottom: 5%;
@@ -45,15 +50,14 @@
 .row2 {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 5%;
   width: 85%;
 }
-.dot{
-
-}
 .heroImage img {
   width: 100%;
+}
+.heroImage {
+  width: 50%;
 }
 
 @media (max-width: 769px) {
@@ -62,7 +66,6 @@
   }
   .leftColumn {
     margin: 0 auto;
-    padding-left: 5%;
   }
   .heroImage {
     display: none;
