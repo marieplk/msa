@@ -45,8 +45,12 @@
 .row2 {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 5%;
   width: 85%;
+}
+.dot{
+
 }
 .heroImage img {
   width: 100%;
@@ -60,11 +64,13 @@
     margin: 0 auto;
     padding-left: 5%;
   }
-}
-@media (max-width: 425px) {
   .heroImage {
     display: none;
   }
+  
+}
+@media (max-width: 425px) {
+
   .hero {
     display: flex;
     justify-content: space-between;

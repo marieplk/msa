@@ -13,7 +13,7 @@
   background-color: var(--light-gray);
 }
 .importantCard h1,
-p {
+.importantCard p {
   margin-bottom: 1.5rem;
 }
 .dualContainer {
