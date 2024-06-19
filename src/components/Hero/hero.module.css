@@ -28,7 +28,7 @@
   margin-top: 4%;
 }
 .leftColumnText2 {
-  margin-bottom: 5%;
+  margin-bottom: 5%
 }
 .ul {
   display: flex;
@@ -69,6 +69,10 @@
   }
   .heroImage {
     display: none;
+  }
+  .leftColumnText2 {
+    margin-bottom: 10%;
+    margin: 0 0 0 5%;
   }
   
 }
