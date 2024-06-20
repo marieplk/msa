@@ -20,7 +20,7 @@ const HeroAbout = () => {
           </Link>
       </div>
       <div className={styles.heroImage}>
-        <img src={Hero3} alt="" />
+        <img src={Hero1} alt="" />
       </div>
     </div>
   );
