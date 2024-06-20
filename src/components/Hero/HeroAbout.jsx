@@ -1,5 +1,5 @@
 import styles from "./hero.module.css";
-import Hero1 from "../../assets/img/hero1.png";
+import Hero1 from "../../assets/img/hero3.png";
 import Button from "../Button/Button";
 import { Link } from 'react-router-dom';
 
