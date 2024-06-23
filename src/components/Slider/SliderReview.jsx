@@ -68,7 +68,7 @@ const SliderReview = () => {
           <div className={styles.cardReviewer}>
             <img src={Reviewer2} alt="" />
             <h2>
-              Мама Лизы, лет <br /> Дибает 1 типа
+              Мама Лизы, 8 лет <br /> Дибает 1 типа
             </h2>
           </div>
         </div>
